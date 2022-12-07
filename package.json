@@ -2,11 +2,11 @@
   "name": "mycomponentlibrary",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint --fix --ext .js,vue src/"
   },
   "dependencies": {
     "vue": "^3.2.41"
@@ -17,6 +17,7 @@
     "@vitejs/plugin-vue": "^3.2.0",
     "eslint": "^8.29.0",
     "eslint-plugin-vue": "^9.8.0",
+    "husky": "^8.0.2",
     "sass": "^1.56.1",
     "typescript": "^4.6.4",
     "vite": "^3.2.3",

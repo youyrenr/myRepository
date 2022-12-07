@@ -1,0 +1,23 @@
+
+npm init vite@latest
+
+
+npm install -D sass
+
+npm i eslint -D
+npx eslint --init
+
+npm install -g typescript
+
+npm run dev
+
+
+
+git init
+git remote add origin git@github.com:youyrenr/myRepository.git
+
+
+npm install -D husky # 安装husky
+npx husky install # 初始化husky
+# 新增commit msg钩子
+npx husky add .husky/commit-msg "node scripts/verifyCommit.js"
