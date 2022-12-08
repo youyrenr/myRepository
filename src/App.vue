@@ -10,11 +10,12 @@
     <el-container>
       <el-header>Header</el-header>
       <el-main>Main
-        <el-button>none</el-button>
+        <el-button circle="circular">none</el-button>
         <el-button size="" type="primary">none-primary</el-button>
-        <el-button size="small" type="success">small-success</el-button>
+        <el-button size="small" type="success" circle="circular">small-success</el-button>
         <el-button size="medium" type="warning">medium-warning</el-button>
         <el-button size="large" type="danger">large-danger</el-button>
+        <el-button size="" type="" circle>text</el-button>
       </el-main>
       <el-footer>Footer</el-footer>
     </el-container>

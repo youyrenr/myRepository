@@ -64,3 +64,7 @@
     color: $color;
   }
 }
+
+@mixin button-radius (){
+  border-radius:30px;
+}

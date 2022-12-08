@@ -1,6 +1,13 @@
+<!-- 
+button 
+  size?: "" | "small" | "medium" | "large",
+  type?: "" | 'primary' | 'success' | 'danger',
+  circle?: "true"|""
+     -->
 <template>
   <button class="el-button" :class="[size ? `el-button--${size}` : '',
-  [type ? `el-button--${type}` : '']]">
+  type ? `el-button--${type}` : '', ,
+  circle ? `el-button--circle` : '']">
     <slot />
   </button>
 </template>
@@ -8,11 +15,13 @@
 import { withDefaults } from "vue";
 interface Props {
   size?: "" | "small" | "medium" | "large",
-  type?: "" | 'primary' | 'success' | 'danger'
+  type?: "" | 'primary' | 'success' | 'danger',
+  circle?: "true"|""
 }
 const props = withDefaults(defineProps<Props>(), {
   size: "",
-  type: ""
+  type: "",
+  circle: ""
 });
 </script>
 <style lang="scss">
@@ -64,6 +73,10 @@ const props = withDefaults(defineProps<Props>(), {
     @include button-type($--button-danger-border-color,
       $--button-danger-font-color,
       $--button-danger-background-color )
+  }
+
+  @include m(circle) {
+    @include button-radius()
   }
 }
 </style>
