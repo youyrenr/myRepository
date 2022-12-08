@@ -1,0 +1,11 @@
+@import "../mixin.scss";
+
+@include b(button) {
+    @include m(primary) {
+        @include button-type(
+            $--button-primary-border-color,
+            $--button-primary-font-color,
+            $--button-primary-background-color
+        );
+    }
+}

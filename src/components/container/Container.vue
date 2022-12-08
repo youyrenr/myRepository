@@ -13,6 +13,7 @@ const props = defineProps<Props>();
 
 const slots = useSlots();
 
+// 如果slot中有header、footer，则flex-direction为column
 const isVertical = computed(() => {
     if (slots && slots.default) {
         return slots.default().some((vn: VNode) => {

@@ -1,3 +1,4 @@
+import {App} from 'vue';
 import ElContainer from './Container.vue';
 import ElHeader from './Header.vue';
 import ElFooter from './Footer.vue';
@@ -5,7 +6,7 @@ import ElAside from './Aside.vue';
 import ElMain from './Main.vue';
 
 export default {
-  install(app){
+  install(app:App){
     app.component('ElContainer',ElContainer);
     app.component('ElHeader',ElHeader);
     app.component('ElFooter',ElFooter);

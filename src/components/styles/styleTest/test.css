@@ -1,0 +1,23 @@
+/* Color
+-------------------------- */
+.el-button--primary {
+  color: #409eff;
+  background-color: #409eff;
+  border-color: #ffffff;
+}
+.el-button--primary:hover, .el-button--primary:focus {
+  background: #66b1ff;
+  border-color: white;
+  color: #409eff;
+}
+.el-button--primary:active {
+  background: #3a8ee6;
+  border-color: #e6e6e6;
+  color: #409eff;
+  outline: none;
+}
+.el-button--primary.is-active {
+  background: #3a8ee6;
+  border-color: #e6e6e6;
+  color: #409eff;
+}/*# sourceMappingURL=test.css.map */

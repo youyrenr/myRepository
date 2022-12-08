@@ -6,29 +6,22 @@
 
 <template>
   <el-container>
-    <el-header>Header</el-header>
-    <el-main>Main</el-main>
-    <el-footer>Footer</el-footer>
-  </el-container>
-  <hr>
-  <el-container>
-    <el-header>Header</el-header>
-    <el-container>
-      <el-aside width="200px">Aside</el-aside>
-      <el-main>Main</el-main>
-    </el-container>
-  </el-container>
-  <hr>
-  <el-container>
     <el-aside width="200px">Aside</el-aside>
-    <el-container> <el-header>Header</el-header>
-      <el-main>Main</el-main>
+    <el-container>
+      <el-header>Header</el-header>
+      <el-main>Main
+        <el-button>none</el-button>
+        <el-button size="" type="primary">none-primary</el-button>
+        <el-button size="small" type="success">small-success</el-button>
+        <el-button size="medium" type="warning">medium-warning</el-button>
+        <el-button size="large" type="danger">large-danger</el-button>
+      </el-main>
       <el-footer>Footer</el-footer>
     </el-container>
   </el-container>
 </template>
 
-<style>
+<style scoped>
 .el-header,
 .el-header,
 .el-footer {
