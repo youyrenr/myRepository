@@ -1,23 +1,32 @@
-
+# 创建项目
 npm init vite@latest
 
-
+# sass
 npm install -D sass
 
+#eslint
 npm i eslint -D
 npx eslint --init
 
+#typescript
 npm install -g typescript
 
+#start
 npm run dev
 
 
-
+#github
 git init
 git remote add origin git@github.com:youyrenr/myRepository.git
 
-
-npm install -D husky # 安装husky
-npx husky install # 初始化husky
+# 安装husky
+npm install -D husky 
+# 初始化husky
+npx husky install 
 # 新增commit msg钩子
 npx husky add .husky/commit-msg "node scripts/verifyCommit.js"
+
+#jest
+npm install -D jest@26 vue-jest@next @vue/test-utils@next
+npm install -D babel-jest@26 @babel/core @babel/preset-env
+npm install -D ts-jest@26 @babel/preset-typescript @types/jest

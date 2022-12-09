@@ -16,7 +16,7 @@ import { withDefaults } from "vue";
 interface Props {
   size?: "" | "small" | "medium" | "large",
   type?: "" | 'primary' | 'success' | 'danger',
-  circle?: "true"|""
+  circle: "true"|""
 }
 const props = withDefaults(defineProps<Props>(), {
   size: "",
