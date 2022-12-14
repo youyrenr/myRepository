@@ -34,7 +34,7 @@
       <el-container>
         <el-main>Main
           <br>
-          <el-row tag="div" type="flex" justify="center">
+          <el-row tag="div" type="flex" justify="end">
             <div>1</div>
             <div>2</div>
           </el-row>
@@ -78,5 +78,8 @@ body>.el-container {
 
 .el-container:nth-child(7) .el-aside {
   line-height: 320px;
+}
+.el-row{
+  background-color: #9db8ce;
 }
 </style>

@@ -65,6 +65,6 @@
   }
 }
 
-@mixin button-radius (){
-  border-radius:30px;
+@mixin radius ($border-radius){
+  border-radius:$border-radius;
 }

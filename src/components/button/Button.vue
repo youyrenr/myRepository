@@ -76,8 +76,7 @@ const props = withDefaults(defineProps<Props>(), {
   }
 
   @include m(circle) {
-    @include button-radius()
+    @include radius(30px)
   }
-  margin: 1px;
 }
 </style>
