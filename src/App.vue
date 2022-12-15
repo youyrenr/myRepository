@@ -43,6 +43,13 @@
       </el-container>
     </el-container>
   </el-container>
+  <hr>
+  <el-container>
+    <el-header></el-header>
+    <el-main>
+      <el-from>1325431</el-from>
+    </el-main>
+  </el-container>
 </template>
 
 <style scoped>
