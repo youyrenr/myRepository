@@ -39,7 +39,7 @@ onMounted(() => {
     if (props.prop) {
         emitter.on("validate", () => {
             validate();
-        })
+        });
         emitter.emit("addFormItem", o);
     }
 });
