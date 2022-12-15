@@ -2,7 +2,7 @@ import {InjectionKey} from "vue";
 import {Rules, Values} from "async-validator";
 
 export type FormData = {
-  model: Record<string, any>
+  model: Record<string, unknown>
   rules?: Rules
 }
 

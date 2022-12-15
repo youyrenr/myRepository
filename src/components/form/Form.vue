@@ -38,7 +38,7 @@ function validate(cb: (isValid: boolean) => void) {
 }
 
 defineExpose({
-    validate,
+    validate
 });
 </script>
 

@@ -59,7 +59,6 @@ function validate() {
     });
 }
 </script>
-
 <style lang="scss">
 @import '../styles/mixin';
 @include b(form-item) {
